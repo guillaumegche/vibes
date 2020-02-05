@@ -1,0 +1,90 @@
+/* class utilisée par JS pour gérer l'affichage de la nav en mobile */
+.navAMobile{
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+}
+
+header{
+    display: block;    
+    text-align: center;
+}
+header #menuBurger{
+   display: block;
+   margin: 20px 0;
+    font-size: 4em;
+    color: black;
+}
+header nav{
+    display: none;
+}
+
+#banniere, #cielEtoile{
+    display: none;
+}
+
+#infos .wrapper{
+    text-align: center;
+}
+#infos .wrapper>div{
+    width: 100%;
+}
+#blocImageInfos{
+    display: none;
+}
+/* #blocImageInfos #blocImage>div{
+    width: 100%;
+}
+#blocImageInfos #navImage a{
+    display: block;
+    text-align: center;
+}
+#blocImageInfos #navImage .wrapper a:last-child{
+    float: none;
+} */
+
+#citations blockquote:nth-of-type(odd) .blockquoteImage{
+    float: none;
+    padding: 0;
+    margin: 0 auto;
+}
+#citations blockquote:nth-of-type(even) .blockquoteImage{
+    float: none;
+    padding: 0;
+    margin: 0 auto;
+}
+#citations blockquote:nth-of-type(even) .blockquoteText{
+    text-align: left;
+}
+
+#contact form>div{
+    width: 100%;
+}
+#contact form label{
+    text-align: center;
+}
+#contact form input, #contact form textarea{
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+footer #informations .wrapper>div{
+    text-align: center;    
+}
+footer #informations #newsletter, footer #informations #twitterFeed{
+    width: 100%;
+}
+footer #informations hr{
+    margin: auto;
+}
+footer #informations #newsletter #newsButton, #newsletter p, #newsletter #inputNews{
+    margin: 1em auto;
+}
+
+footer #basDePage .wrapper{
+    display: block;
+}
+footer #basDePage .wrapper a{
+    display: block;
+    margin: 1em auto;
+}

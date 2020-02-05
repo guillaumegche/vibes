@@ -1,0 +1,28 @@
+/****** Partie header ******/
+header nav{
+    text-align: center;
+}
+header nav a{
+    width: 30%;
+    margin: 5px auto;
+}
+   
+/***** Partie main *****/    
+#infos .wrapper div:first-child{
+    width: 100%;
+}
+#infos .wrapper>div{
+    width: 50%;
+}
+
+/***** Partie footer *****/
+footer #informations #aboutNews{
+    width: 100%;
+}
+footer #informations #newsletter, footer #informations #twitterFeed{
+    width: 50%;
+}
+
+footer #basDePage div:last-of-type{
+    text-align: center;
+}
